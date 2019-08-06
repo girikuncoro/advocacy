@@ -1,0 +1,17 @@
+---
+title: Gocon 2019
+subtitle: Example Con of Go
+comments: true
+---
+
+# Go Con 2019
+
+Here we do examples, well.
+
+Here is an example from go con
+
+```go
+func GoCon() error {
+    return nil
+}
+```

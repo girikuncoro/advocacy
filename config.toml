@@ -1,0 +1,55 @@
+baseURL = "http://username.github.io"
+DefaultContentLanguage = "en"
+title = "Gojek Advocacy"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+    subtitle = "Sharing how we do amazing tech at our scale"
+    logo = "img/gojek.png"
+    favicon = "img/favicon.ico"
+    dateFormat = "January 2, 2006"
+    commit = false
+    rss = true
+    comments = true
+    readingTime = true
+    useHLJS = true
+    socialShare = false
+
+[Author]
+  name = "Gojek Advocacy"
+  website = "blog.gojekengineering.com"
+  email = "advocacy@go-jek.com"
+  github = "gojek"
+  twitter = "gojektech"
+  youtube = "channel/lifeatgojek"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "gotroops"
+    name = "GoTroops"
+    weight = 4
+
+[[menu.main]]
+    parent = "gotroops"
+    name = "Giri Kuncoro"
+    url = "page/giri-kuncoro"
+    weight = 1
+
+[[menu.main]]
+    identifier = "events"
+    name = "Events"
+    weight = 5
+
+[[menu.main]]
+    parent = "events"
+    name = "GoCon"
+    url = "event/gocon-2019"
